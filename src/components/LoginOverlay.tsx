@@ -41,14 +41,14 @@ export const LoginOverlay: React.FC<LoginOverlayProps> = ({ onLogin }) => {
             className="relative"
           >
             <div className="w-32 h-32 rounded-full border-4 border-primary/20 p-1 bg-white shadow-xl overflow-hidden">
-              {/* REPLACE THE URL BELOW WITH YOUR PHOTO LINK */}
-              <img 
-                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=256&h=256&auto=format&fit=crop" 
-                alt="Senior" 
-                className="w-full h-full object-cover rounded-full"
-                referrerPolicy="no-referrer"
-              />
-            </div>
+            <img 
+              /* This is your new direct image link */
+              src="https://i.imgur.com/vHqY7Gv.jpeg" 
+              alt="Senior" 
+              className="w-full h-full object-cover rounded-full"
+              referrerPolicy="no-referrer"
+            />
+          </div>
             <motion.div 
               animate={{ scale: [1, 1.2, 1] }}
               transition={{ duration: 2, repeat: Infinity }}
