@@ -234,7 +234,7 @@ export default function App() {
               animate={{ opacity: 1, y: 0 }}
               className="text-5xl md:text-7xl font-serif text-primary drop-shadow-sm"
             >
-              Happy Birthday, Senior Arpona! 🌸
+              Happy Birthday, Senior🌸
             </motion.h1>
           </motion.div>
 
@@ -309,7 +309,7 @@ export default function App() {
                      transition={{ delay: 1 }}
                      className="text-primary font-serif text-3xl italic"
                    >
-                     Senior, Bubu & Dudu brought a gift!
+                     Senior, I Have a gift just for you!
                    </motion.p>
                 </motion.div>
               )}
