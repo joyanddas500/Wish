@@ -43,7 +43,7 @@ export const LoginOverlay: React.FC<LoginOverlayProps> = ({ onLogin }) => {
             <div className="w-32 h-32 rounded-full border-4 border-primary/20 p-1 bg-white shadow-xl overflow-hidden">
             <img 
               /* This is your new direct image link */
-              src="https://i.imgur.com/vHqY7Gv.jpeg" 
+              src="https://imgur.com/a/HOzvHa1" 
               alt="Senior" 
               className="w-full h-full object-cover rounded-full"
               referrerPolicy="no-referrer"
