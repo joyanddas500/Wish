@@ -41,17 +41,10 @@ export const LoginOverlay: React.FC<LoginOverlayProps> = ({ onLogin }) => {
             className="relative"
           >
             <div className="w-32 h-32 rounded-full border-4 border-primary/20 p-1 bg-white shadow-xl overflow-hidden">
-              {/* 
-                I've created a /public folder for you. 
-                To use your own photo:
-                1. Upload your cat photo to the /public folder and name it 'cat.jpg'
-                2. Change the src below to "/cat.jpg"
-              */}
               <img 
-                src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?q=80&w=256&h=256&auto=format&fit=crop" 
-                alt="Cute Cat" 
+                src="/senior.png" 
+                alt="Senior" 
                 className="w-full h-full object-cover rounded-full"
-                referrerPolicy="no-referrer"
               />
             </div>
             <motion.div 
