@@ -10,6 +10,7 @@ interface CharacterProps {
 }
 
 export const Character: React.FC<CharacterProps> = ({ type, action, message, className, flip }) => {
+  return null;
   const isBubu = type === 'bubu';
   
   // Colors based on the provided image
