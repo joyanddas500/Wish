@@ -99,7 +99,7 @@ export const LoginOverlay: React.FC<LoginOverlayProps> = ({ onLogin }) => {
             type="submit"
             className="w-full py-4 bg-primary text-white rounded-full font-medium shadow-lg shadow-primary/30 hover:bg-primary/90 hover:-translate-y-1 transition-all flex items-center justify-center gap-2 group"
           >
-            <span>Open My Heart</span>
+            <span>Open a Junior's Heart</span>
             <Heart className="w-4 h-4 group-hover:fill-current transition-all" />
           </button>
         </form>
