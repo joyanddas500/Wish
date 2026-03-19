@@ -72,7 +72,7 @@ export const LoginOverlay: React.FC<LoginOverlayProps> = ({ onLogin }) => {
         <form onSubmit={handleLogin} className="space-y-4">
           <input
             type="text"
-            placeholder="Apni nickname?"
+            placeholder="Apner nickname? 😤"
             value={userId}
             onChange={(e) => setUserId(e.target.value)}
             className="w-full px-6 py-3 rounded-full border-2 border-slate-100 focus:border-primary outline-none transition-all text-center"
