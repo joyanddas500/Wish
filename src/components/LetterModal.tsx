@@ -49,16 +49,24 @@ export const LetterModal: React.FC<LetterModalProps> = ({ isOpen, onClose }) => 
                 </motion.div>
               </div>
 
-              <h3 className="text-3xl text-[#8d6e63] font-bold tracking-wide">Dear Senior,</h3>
+              <h3 
+                style={{ fontFamily: "'Caveat', cursive" }} 
+                className="text-4xl text-[#795548] font-bold tracking-wide"
+              >
+                Dear Senior,
+              </h3>
               
-              <div className="space-y-4 text-xl leading-relaxed text-[#5d4037] italic">
+              <div 
+                style={{ fontFamily: "'Caveat', cursive" }} 
+                className="space-y-6 text-2xl leading-snug text-[#4e342e]"
+              >
                 <p>
                   Happy Birthday! You bring so much joy into the world. 
                   On your special day, I hope you find every reason to smile. 
                   You are truly special and deserve all the happiness.
                 </p>
-                <p className="pt-2 font-bold text-[#8d6e63]">
-                  Here’s a little something I made - your memories of my eyes…
+                <p className="pt-2 font-bold text-[#795548]">
+                  Here’s a little something I made — your memories of my eyes…
                 </p>
               </div>
 
