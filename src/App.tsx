@@ -102,11 +102,11 @@ export default function App() {
   const createPlayer = () => {
     if (window.YT && window.YT.Player && !playerRef.current) {
       playerRef.current = new window.YT.Player('youtube-player', {
-        height: '0', width: '0', videoId: 'aebLeeD4icY',
+        height: '0', width: '0', videoId: 'I3OJUwILelU',
         playerVars: { 
           autoplay: 1, 
           loop: 1, 
-          playlist: 'I3OJUwILelU', 
+          playlist: 'aebLeeD4icY', 
           origin: window.location.origin,
           controls: 0,
           showinfo: 0,
