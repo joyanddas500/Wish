@@ -106,7 +106,7 @@ export default function App() {
         playerVars: { 
           autoplay: 1, 
           loop: 1, 
-          playlist: 'aebLeeD4icY', 
+          playlist: 'I3OJUwILelU', 
           origin: window.location.origin,
           controls: 0,
           showinfo: 0,
