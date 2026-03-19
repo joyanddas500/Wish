@@ -42,7 +42,7 @@ export const LoginOverlay: React.FC<LoginOverlayProps> = ({ onLogin }) => {
           >
             <div className="w-32 h-32 rounded-full border-4 border-primary/20 p-1 bg-white shadow-xl overflow-hidden">
               <img 
-                src="/senior1.png" 
+                src="/icon.png" 
                 alt="Senior" 
                 className="w-full h-full object-cover rounded-full"
               />
